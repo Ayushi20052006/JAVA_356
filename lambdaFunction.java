@@ -1,7 +1,7 @@
 interface add{
     int sum(int a,int b);
 }
-public class test {
+public class lambdaFunction {
     public static void main(String[] args){
         //lambda expression
         add obj =(a,b)->a+b;

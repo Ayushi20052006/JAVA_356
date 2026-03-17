@@ -1,3 +1,4 @@
+import java.util.*;
 public class array {
     int [] arr= {10,20,30,40,50};
     int [][] arr2D= {
@@ -44,8 +45,15 @@ public class array {
 
     public static void main(String[] args) {
         array obj=new array();
-        obj.display();
-        obj.display2D();
-        obj.display3D();
+        // obj.display();
+        // obj.display2D();
+        // obj.display3D();
+
+        //Diamond operators
+        List<String> list=new ArrayList<>();
+        list.add("Hello");
+        list.add("World");
+        System.out.println(list);    //Output: [Hello, World]
+
     }
 }
